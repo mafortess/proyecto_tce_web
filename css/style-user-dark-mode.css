@@ -1,0 +1,215 @@
+/*HTML Y BODY*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+    background-color: rgb(38, 76, 126);
+
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+#central {
+    width: 100%;
+}
+
+h2{
+    margin: 0px 10px;
+}
+.titulo {
+    font-size: 250%;
+    color:#bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.alert {
+    color:white;
+    margin-bottom: 10px;
+}
+
+#login{
+    width: 350px;
+    padding: 50px 30px;
+    background-color: #1e1e20;
+    color:white;
+    border-radius: 3px;
+   
+    box-sizing: border-box;
+}
+
+#registro{
+    width: 620px;
+    padding: 50px 30px;
+    background-color: #1e1e20;
+    color:white;
+    border-radius: 3px; 
+    box-sizing: border-box;
+}
+
+#account-info{
+    width: 350px;
+    padding: 50px 30px;
+    background-color: #1e1e20;
+    color:white;
+    border-radius: 3px;
+   
+    box-sizing: border-box;
+}
+
+fieldset{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#loginform div{
+    display: inline-block;
+    width: 260px;
+    margin: 5px;
+    align-items: center;
+}
+
+#registerform div{
+    display: inline-block;
+    width: 250px;
+    margin: 5px;
+    align-items: center;
+}
+
+#central input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1a3265;
+    
+    display: inline-block;
+  
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px;
+}
+
+div.fin-form{
+    position: relative;
+    left: 150px;
+}
+.pas {
+    display: inline-block;
+}
+
+#imgContrasena{
+    width: fit-content;
+}
+div.fin-form-login{
+    position: relative;
+    left: 20px;
+}
+.fin-form input{
+    width: 120px;
+    margin-left: 0px;
+}
+
+.fin-form-login input{
+    width: 120px;
+    margin-left: 0px;
+}
+
+.fin-form input:hover{
+    background-color: #bbe1fa;
+}
+
+.fin-form-login input:hover{
+    background-color: #bbe1fa;
+}
+
+#central input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#central button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px;
+    background-color: #bbe1fa;
+    margin-top: 10px;
+}
+
+#central button:hover {
+    background-color: #0f4c75;
+    color:#bbe1fa;
+}
+
+#central button:hover {
+    background-color: #0f4c75;
+    color:#bbe1fa;
+}
+
+.icon {
+    /*position: absolute;*/
+    display: inline-block;
+    bottom: 2px;
+    right: 25px;
+    width: 24px;
+    height: 24px;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #ced4d8;
+}
+
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    color: #ced4d8;;
+}
