@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-Hola 
-=======
-Hola 
-ADios
->>>>>>> ramab
