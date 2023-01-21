@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <nav>
     <div id= "menu_opciones">
         <ul class = "menu_desplegable">
-            <li class="first" ><a href=""> <img class="menu_img" src="<?php echo base_url(); ?>img/menu-burger-dark.png"> Nuestros vehículos</a>
+            <li class="first" ><a href=""> <img class="menu_img" src="<?php echo base_url(); ?>assets/icons/menu-burger-dark.png"> Nuestros vehículos</a>
                 <ul class="desplegable">    
                     <li><a href="<?php echo base_url();?>index.php/Categorias/index/1"><?php echo html_escape($categorias[0]->nombre); ?></a> </li>
                     <li><a href="<?php echo base_url();?>index.php/Categorias/index/2"><?php echo html_escape($categorias[1]->nombre); ?></a> </li>

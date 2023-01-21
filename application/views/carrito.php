@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 $i=0;
 
                 echo <<< RAW
-                    <a class="ir-arriba"> <img src="{$base}img/punta-de-flecha-hacia-arriba.png" alt="Boton ir arriba" ></a>
+                    <a class="ir-arriba"> <img src="{$base}assets/icons/punta-de-flecha-hacia-arriba.png" alt="Boton ir arriba" ></a>
 
                     <article class="carrito-final" id="final-flex">
                         <form id="compraform" method="post" action="{$base}index.php/Carritos/completarcompra">
@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             } else{
                 echo "La cesta está vacía";
                 echo <<< RAW
-                    <div class="logo-carrito"><a id="logo_header" href="{$base}" > <img src="{$base}img/luxcar_logo.jpeg" alt="Logo"></a></div>
+                    <div class="logo-carrito"><a id="logo_header" href="{$base}" > <img src="{$base}assets/img/luxcar_logo.jpeg" alt="Logo"></a></div>
                 RAW;
             }
             ?>           

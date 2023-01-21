@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta charset="UTF-8">
     <title> <?php echo $titulo; ?> </title>
     <link rel = "stylesheet" type = "text/css" 
-        href = "<?php echo base_url(); ?>css/style-user-dark-mode.css" />
+        href = "<?php echo base_url(); ?>assets/css/style-user-dark-mode.css" />
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
@@ -20,12 +20,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 var image = control.find('img');
                 if (estatus == false) {
                     control.data('activo', true);
-                    $(image).attr('src', '<?php echo base_url(); ?>img/visible_ocultar.png');
+                    $(image).attr('src', '<?php echo base_url(); ?>assets/img/visible_ocultar.png');
                     $("#password").attr('type', 'text');
                 }
                 else {
                     control.data('activo', false);
-                    $(image).attr('src', '<?php echo base_url(); ?>img/visible_mostrar.png');
+                    $(image).attr('src', '<?php echo base_url(); ?>assets/img/visible_mostrar.png');
                     $("#password").attr('type', 'password');
                 }
             });
@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <div class="ps">
                                         <label for="password">Contraseña</label>
                                         <div> <input type="password" class="control" maxlength="20" name="password" value="hola1234" id="password"> <br></div>
-                                        <div style="fit-content" id="imgContrasena" data-activo=false><img src="<?php echo base_url(); ?>img/visible_mostrar.png" class="icon"></div>
+                                        <div style="fit-content" id="imgContrasena" data-activo=false><img src="<?php echo base_url(); ?>assets/icons/visible_mostrar.png" class="icon"></div>
                                     </div>
                                 </div>
                             </fieldset>

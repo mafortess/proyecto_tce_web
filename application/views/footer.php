@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
         <footer class="footer-basic">
-                <div> <a id="logo_footer" href="<?php echo base_url(); ?>"> <img src="<?php echo base_url(); ?>img/luxcar_logo.jpeg" alt="Logo"></a></div>
+                <div> <a id="logo_footer" href="<?php echo base_url(); ?>"> <img src="<?php echo base_url(); ?>assets/img/luxcar_logo.jpeg" alt="Logo"></a></div>
                 <div>
                     <p>Gracias por visitarnos.</p>
                 </div>

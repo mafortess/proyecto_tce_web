@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section> 
 
     
-    <a class="ir-arriba"> <img src="<?php echo base_url(); ?>img/punta-de-flecha-hacia-arriba.png" ></a>
+    <a class="ir-arriba"> <img src="<?php echo base_url(); ?>assets/icons/punta-de-flecha-hacia-arriba.png" ></a>
     
     <section id="categorias"> 
             <div>
@@ -54,35 +54,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="categorias-flex grises"> 
                 <article class="cat1">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/1"> 
-                        <img src="<?php echo base_url(); ?>img/kia_picanto.png" alt="Portada urbanos">
+                        <img src="<?php echo base_url(); ?>assets/img/kia_picanto.png" alt="Portada urbanos">
                         <?php echo html_escape($categorias[0]->nombre); ?>
                     </a>
                 </article>
                 
                 <article class="cat1">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/2">
-                        <img src="<?php echo base_url(); ?>img/util-audi_a1.jpg" alt="Portada utilitarios"> 
+                        <img src="<?php echo base_url(); ?>assets/img/util-audi_a1.jpg" alt="Portada utilitarios"> 
                         <?php echo html_escape($categorias[1]->nombre); ?>
                     </a>
                 </article>
 
                 <article class="cat1">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/3">
-                        <img src="<?php echo base_url(); ?>img/compacto_ford_focus.png" alt="Portada compactos"> 
+                        <img src="<?php echo base_url(); ?>assets/img/compacto_ford_focus.png" alt="Portada compactos"> 
                         <?php echo html_escape($categorias[2]->nombre); ?>
                     </a>
                 </article>
 
                 <article class="cat1">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/4">
-                        <img src="<?php echo base_url(); ?>img/mercedes-berlina.png" alt="Portada berlinas"> 
+                        <img src="<?php echo base_url(); ?>assets/img/mercedes-berlina.png" alt="Portada berlinas"> 
                         <?php echo html_escape($categorias[3]->nombre); ?>  
                     </a>
                 </article>
                 
                 <article class="cat1">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/5">
-                        <img src="<?php echo base_url(); ?>img/seat-alhambra-monovol.png" alt="Portada monovolumenes"> 
+                        <img src="<?php echo base_url(); ?>assets/img/seat-alhambra-monovol.png" alt="Portada monovolumenes"> 
                         <?php echo html_escape($categorias[4]->nombre); ?>
                     </a>
                 </article>
@@ -91,35 +91,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="categorias-flex grises"> 
                 <article class="cat">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/6">
-                        <img src="<?php echo base_url(); ?>img/suv_Q7.png" alt="Portada SUV"> 
+                        <img src="<?php echo base_url(); ?>assets/img/suv_Q7.png" alt="Portada SUV"> 
                         <?php echo html_escape($categorias[5]->nombre); ?>
                     </a>
                  </article>
 
                 <article class="cat">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/7">
-                        <img src="<?php echo base_url(); ?>img/peugeot-2008-suv.png" alt="Portada deportivos">
+                        <img src="<?php echo base_url(); ?>assets/img/peugeot-2008-suv.png" alt="Portada deportivos">
                         <?php echo html_escape($categorias[6]->nombre); ?>
                     </a>
                 </article>
                 
                 <article class="cat">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/8">
-                        <img src="<?php echo base_url(); ?>img/mercedes-todoterreno.jpg" alt="Portada todoterrenos"> 
+                        <img src="<?php echo base_url(); ?>assets/img/mercedes-todoterreno.jpg" alt="Portada todoterrenos"> 
                         <?php echo html_escape($categorias[7]->nombre); ?>  
                     </a>                 
                 </article>
  
                 <article class="cat">
                     <a href="<?php echo base_url();?>index.php/Categorias/index/9">
-                        <img src="<?php echo base_url(); ?>img/bugatti_veyron.PNG" alt="Portada deportivos">
+                        <img src="<?php echo base_url(); ?>assets/img/bugatti_veyron.PNG" alt="Portada deportivos">
                         <?php echo html_escape($categorias[8]->nombre); ?>
                     </a>
                 </article>
                         
                 <article class="cat">               
                     <a href="<?php echo base_url();?>index.php/Categorias/index/10">
-                        <img src="<?php echo base_url(); ?>img/mercedes-gt-roadster.png" alt="Portada Descapotables">
+                        <img src="<?php echo base_url(); ?>assets/img/mercedes-gt-roadster.png" alt="Portada Descapotables">
                         <?php echo html_escape($categorias[9]->nombre); ?>                
                     </a>
                 </article>        

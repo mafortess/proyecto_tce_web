@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
             <div>
-                <img class="pago" src="<?php echo base_url()?>/img/cancelado.png" alt="Pago cancelado">
+                <img class="pago" src="<?php echo base_url()?>assets/img/cancelado.png" alt="Pago cancelado">
             </div>    
         
         </section>
