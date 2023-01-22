@@ -24,14 +24,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     A día de hoy, somos una referencia en más de 50 países y hemos cambiado la forma de entender la automoción.
                 </div>
                 <div>
-                    <img src="<?php echo base_url();?>assets/img/concesionario-1.jpg" alt="">
+                    <img src="<?php echo base_url();?>assets/img/concesionario-1.jpg" alt="Imagen concesionario 1">
                 </div>
             </div>
             <hr>
             <h2> Nuestra misión</h2>
             <div class="about about2">
                 <div>
-                    <img src="<?php echo base_url();?>assets/img/concesionario-2.jpg" alt="">
+                    <img src="<?php echo base_url();?>assets/img/concesionario-2.jpg" alt="Imagen concesionario 2">
                 </div>   
                 <div>
                     Somos la empresa lider del sector de venta y alquiler de automóviles. Y buscamos seguir muchos más años siéndolo.<br><br>             
