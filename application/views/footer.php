@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li>Servicio Post-venta</li>
                     </ul>
                 </div>
-                <div> 2022 LuxCar - Málaga [España] </div>
+                <div> 2023 © LuxCar - Málaga [España] </div>
         </footer>
     </div>
 </body>
