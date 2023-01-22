@@ -6,6 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8">
     <title> <?php echo $titulo; ?> </title>
+    <link rel = "icon" href="<?php echo base_url(); ?>assets/img/hacker.jpg"/>
     <link rel = "stylesheet" type = "text/css" 
         href = "<?php echo base_url(); ?>assets/css/style-dark-mode.css" />
         
